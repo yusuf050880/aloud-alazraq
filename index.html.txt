@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>متجر العود الأزرق</title>
+    <style>
+        body {
+            font-family: Tahoma, Arial;
+            background-color: #f5f7fa;
+            margin: 0;
+            direction: rtl;
+        }
+        header {
+            background-color: #0a2540;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .products {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .product {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product h3 {
+            color: #0a2540;
+        }
+        .price {
+            color: #1d8f5a;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #0a2540;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #123a63;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ddd;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>متجر العود الأزرق</h1>
+    <p>أفخم أنواع البخور بروائح فاخرة</p>
+</header>
+
+<div class="container">
+    <h2 style="text-align:center;">منتجاتنا</h2>
+
+    <div class="products">
+        <div class="product">
+            <h3>بخور العود الأزرق</h3>
+            <p>رائحة فاخرة وثبات عالي</p>
+            <div class="price">120 ريال</div>
+            <button>إضافة إلى السلة</button>
+        </div>
+
+        <div class="product">
+            <h3>بخور المسك الملكي</h3>
+            <p>مناسب للمناسبات</p>
+            <div class="price">90 ريال</div>
+            <button>إضافة إلى السلة</button>
+        </div>
+
+        <div class="product">
+            <h3>بخور العنبر</h3>
+            <p>رائحة دافئة ومميزة</p>
+            <div class="price">100 ريال</div>
+            <button>إضافة إلى السلة</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    جميع الحقوق محفوظة © العود الأزرق 2026
+</footer>
